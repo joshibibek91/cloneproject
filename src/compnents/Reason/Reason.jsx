@@ -2,7 +2,7 @@ import React from 'react'
 
 function Reason() {
     return (
-        <reason>
+        <>
             <div className="top">
                 <div className="reason">REASON TO CHOOSE US</div>
                 <div className="provide">We provide truly prominent IT solutions</div>
@@ -12,7 +12,7 @@ function Reason() {
             </div>
 
 
-        </reason>
+        </>
     )
 }
 

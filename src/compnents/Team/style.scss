@@ -1,7 +1,84 @@
 .ourteam {
-    height: 350px;
-    background-color: yellow;
-    // background-image: url(src\compnents\Team\startup-team-collaborating-project-using-laptops.jpg);
-    // background-size: 100%;
-    // background-position: center;
+    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 100%;
+    background-position: center;
+
+    .container1 {
+
+        padding: 250px 0;
+
+        color: white;
+
+
+
+
+        .main {
+            font-family: 'Barlow', sans-serif;
+            font-size: 50px;
+            font-weight: 500;
+            text-align: center;
+
+        }
+
+        .click {
+
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            p {
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    .grid {
+        margin: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        // background-color: yellow;
+        // justify-content: space-between;
+        // justify-content: flex-start;
+
+
+        .card {
+            // margin-right: 10px;
+            padding: 0 0 0 20px;
+            border-radius: 0;
+            height: 400px;
+            width: 300px;
+            // background-color: salmon;
+            background-image: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%), url('src/compnents/Team/dami.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: var(--font-family2);
+            color: white;
+            border: none;
+            // background-color: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%);
+            // filter: grayscale(100%);
+            // -webkit-filter: grayscale(100%);
+
+            .name {
+                font-size: 25px;
+                font-weight: 580;
+                padding: 270px 0 0 0;
+                line-height: 25px;
+            }
+
+            .post {
+                padding: 10px 0 0 0;
+                line-height: 20px;
+                font-family: var(--font-family3)
+            }
+        }
+    }
 }

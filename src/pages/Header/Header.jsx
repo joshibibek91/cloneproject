@@ -13,7 +13,7 @@ function Header() {
                         <NavLink className="home" to="/home" >Home</NavLink>
                         <Link className="services" to="/services" >Services</Link>
                         <Link className="about" to="/about-api" >About API</Link>
-                        <Link className="travel" to="/travel-dom" >Travel DOME</Link>
+                        <Link className="team" to="/team" >Team</Link>
                         <Link className="know" to="/know-us" >Know Us</Link>
 
                     </div>
