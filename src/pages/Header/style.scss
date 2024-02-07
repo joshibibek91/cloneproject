@@ -1,5 +1,5 @@
 .header {
-    background-color: khaki;
+    // background-color: khaki;
     margin: 0 100px;
 
     .container {
@@ -16,14 +16,14 @@
             margin: auto 0;
 
             img {
-                width: 40%;
+                width: 80%;
             }
 
         }
 
         .middle {
             width: 550px;
-            background-color: lightcoral;
+            // background-color: lightcoral;
             margin: auto 0;
             display: flex;
             justify-content: space-between;
@@ -36,7 +36,7 @@
 
         .right {
             width: 250px;
-            background-color: peru;
+            // background-color: peru;
             margin: auto 0;
             display: flex;
             justify-content: space-between;

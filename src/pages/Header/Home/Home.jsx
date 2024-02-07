@@ -9,21 +9,21 @@ function Home() {
         <>
             <Carousel>
                 <Carousel.Item interval={1000}>
-                    <img src="src\pages\Header\Home\Travel.avif" classname="d-block w-100" alt />
+                    <img src="src\pages\Header\Home\Travel.avif" className="d-block w-100" alt />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
-                    <img src="src\pages\Header\Home\Travel.avif" classname="d-block w-100" alt />
+                    <img src="src\pages\Header\Home\Travel.avif" className="d-block w-100" alt />
                     <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="src\pages\Header\Home\Travel.avif" classname="d-block w-100" alt />                              <Carousel.Caption>
+                    <img src="src\pages\Header\Home\Travel.avif" className="d-block w-100" alt />                              <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -33,17 +33,17 @@ function Home() {
             </Carousel>
 
             {/* <div className="home">
-                <div classname="container">
+                <div className="container">
                     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div>
-                                    <img src="src\pages\Header\Home\Travel.avif" classname="d-block w-100" alt />
-                                    <div classname="carousel-item">
-                                        <img src="src\pages\Header\Home\ecommerce.avif" classname="d-block w-100" alt />
+                                    <img src="src\pages\Header\Home\Travel.avif" className="d-block w-100" alt />
+                                    <div className="carousel-item">
+                                        <img src="src\pages\Header\Home\ecommerce.avif" className="d-block w-100" alt />
                                     </div>
-                                    <div classname="carousel-item">
-                                        <img src="src\pages\Header\Home\Travel.avif" classname="d-block w-100" alt />
+                                    <div className="carousel-item">
+                                        <img src="src\pages\Header\Home\Travel.avif" className="d-block w-100" alt />
                                     </div></div>
                             </div>
                         </div>

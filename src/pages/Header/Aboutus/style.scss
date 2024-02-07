@@ -1,0 +1,287 @@
+.aboutus1 {
+    min-height: 600px;
+    font-family: var(--font-family2);
+
+    .frame {
+        height: 600px;
+        background-image: url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: 100%;
+        background-position: center;
+
+
+        .container1 {
+
+            padding: 250px 0;
+
+
+            color: white;
+
+
+
+
+            .main {
+                font-family: 'Barlow', sans-serif;
+                font-size: 50px;
+                font-weight: 500;
+                text-align: center;
+
+            }
+
+            .click {
+
+                font-size: 20px;
+                font-weight: 400;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    font-family: var(--font-family3);
+                    text-decoration: none;
+                    color: white;
+                }
+
+                p {
+                    text-decoration: none;
+                    font-family: var(--font-family3);
+                }
+
+            }
+        }
+    }
+
+    .frame2 {
+
+        // background-color: hotpink;
+        .container2 {
+            display: flex;
+            height: 600px;
+            background-image: url('src/pages/Header/Aboutus/blue_waves_flow_background_1407 [Converted].png');
+            background-size: cover;
+            background-position: left;
+            // background-color: hotpink;
+
+            padding: 50px 100px;
+
+            .left {
+
+                width: 50%;
+                display: flex;
+                // background-color: goldenrod;
+                justify-content: space-between;
+
+                .image1 {
+                    width: 300px;
+                    // background-color: lightblue;
+
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        // display: block;
+                        border-radius: 15px;
+                    }
+                }
+
+                .image2 {
+                    width: 300px;
+
+                    // background-color: gold;
+                    margin: 80px 0 0 0;
+
+
+                    // background-color: rebeccapurple;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        // display: inline;
+                        border-radius: 15px;
+
+                    }
+
+                }
+
+            }
+
+            .right {
+                width: 50%;
+                // display: flex;
+                // background-color: lawngreen;
+                padding: 0 20px 0 70px;
+
+                .whoweare {
+                    font-family: var(--font-family3);
+                    font-weight: 500;
+                    color: #086AD8;
+                    // background-color: lightcoral;
+                    font-size: 16px;
+                }
+
+                .highly {
+                    // background-color: teal;
+                    padding: 15px 0 25px 0;
+                    font-family: var(--font-family2);
+                    font-size: 46px;
+                    font-weight: 600;
+                    line-height: 50px;
+                }
+
+                .desc {
+                    // background-color: firebrick;
+                    font-size: 15px;
+                    font-family: var(--font-family3);
+                    font-weight: 400;
+                    padding-bottom: 25px;
+
+                }
+
+                .down {
+                    border-top: 1px solid grey;
+                    min-height: 150px;
+                    // background-color: wheat;
+                    display: flex;
+                    justify-content: space-between;
+                    font-family: var(--font-family2);
+                    padding-top: 25px;
+
+                    .left2 {
+                        // background-color: salmon;
+                        width: 46%;
+
+                        .head1 {
+                            // background-color: yellowgreen;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+
+                        .write {
+                            font-family: var(--font-family3);
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .right2 {
+                        // background-color: rgb(90, 79, 78);
+                        width: 46%;
+
+                        .head2 {
+                            // background-color: rgb(50, 169, 205);
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+
+                        .write {
+                            font-family: var(--font-family3);
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+
+                    }
+                }
+
+
+
+
+
+            }
+        }
+
+        .lastline {
+            text-align: center;
+            font-family: var(--font-family3);
+            font-size: 18px;
+            font-weight: 500;
+            padding: 20px 0;
+            // background-color: darkcyan;
+        }
+    }
+
+    .status {
+        min-height: 200px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+
+        .box {
+            height: 250px;
+            width: 85%;
+            display: flex;
+            justify-content: space-around;
+
+
+            color: white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('src/pages/Header/Aboutus/abstract-background-with-colorful-lights.jpg');
+            background-size: 150%;
+            background-position: center;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+
+            .completedprojects {
+                width: 200px;
+                // background-color: salmon;
+                font-size: 50px;
+                font-weight: 700;
+                margin: auto 0;
+
+                .span {
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: var(--font-family3);
+                }
+            }
+
+            .websiteanalyse {
+                width: 200px;
+                // background-color: salmon;
+                font-size: 50px;
+                font-weight: 700;
+                margin: auto 0;
+
+                .span {
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: var(--font-family3);
+                }
+            }
+
+            .workhrs {
+                width: 200px;
+                // background-color: salmon;
+                font-size: 50px;
+                font-weight: 700;
+                margin: auto 0;
+
+                .span {
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: var(--font-family3);
+                }
+            }
+
+            .satisfiedclients {
+                width: 200px;
+                // background-color: salmon;
+                font-size: 50px;
+                font-weight: 700;
+                margin: auto 0;
+
+                .span {
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: var(--font-family3);
+                }
+            }
+
+        }
+
+
+    }
+
+    .container3 {
+        min-height: 600px;
+        background-color: royalblue;
+        background-image: url("src/pages/Header/Aboutus/sl_021821_40890_06.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}

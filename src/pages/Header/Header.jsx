@@ -8,11 +8,11 @@ function Header() {
         <>
             <div className="header">
                 <div className="container">
-                    <div className="left"><img src="https://www.logodee.com/wp-content/uploads/2023/01/Online-Custom-Free-Logo-Maker-Vector-Free-Download.jpg" alt="" /></div>
+                    <div className="left"><img src="src/pages/Header/WhatsApp Image 2024-02-04 at 11.06.49 AM.jpeg" alt="" /></div>
                     <div className="middle">
                         <NavLink className="home" to="/home" >Home</NavLink>
                         <Link className="services" to="/services" >Services</Link>
-                        <Link className="about" to="/about-api" >About API</Link>
+                        <Link className="aboutus" to="/aboutus" >About Us</Link>
                         <Link className="team" to="/team" >Team</Link>
                         <Link className="know" to="/know-us" >Know Us</Link>
 
