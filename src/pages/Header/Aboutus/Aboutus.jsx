@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./style.scss"
+import Scope from '../../../compnents/Scope/scope'
+import Testimonial from '../../../compnents/Testimonial/Testimonial'
+import Experts from '../../../compnents/Expert/Experts'
 
 function Aboutus() {
   return (
@@ -59,13 +62,9 @@ function Aboutus() {
 
           </div>
         </div>
-        <div className="container3">
-          <div className="top">REASON TO CHOOSE US</div>
-          <div className="middle">We provide truly prominent IT solutions.</div>
-          <div className="cards">
-
-          </div>
-        </div>
+      <Scope/>
+      <Experts/>
+      <Testimonial/>
 
       </div>
 

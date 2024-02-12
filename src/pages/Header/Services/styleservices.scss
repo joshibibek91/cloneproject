@@ -1,0 +1,30 @@
+
+
+    .card {
+        padding: 0 0 0 20px;
+        border-radius: 0;
+        height: 400px;
+        width: 300px;
+        // background-image: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%), url('src/pages/Header/Team/dami.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: var(--font-family2);
+        color: white;
+        border: none;
+
+
+        .name {
+            font-size: 25px;
+            font-weight: 580;
+            padding: 270px 0 0 0;
+            line-height: 25px;
+        }
+
+        .post {
+            padding: 10px 0 0 0;
+            line-height: 20px;
+            font-family: var(--font-family3)
+        }
+    }
+
+
