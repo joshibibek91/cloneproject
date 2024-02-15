@@ -3,10 +3,10 @@ import React from 'react'
 function Testimonial() {
   return (
     <>
-    <div className="testimonial">
-        Testionial
-    </div>
-      
+      <div className="testimonial">
+        Testimonial
+      </div>
+
     </>
   )
 }

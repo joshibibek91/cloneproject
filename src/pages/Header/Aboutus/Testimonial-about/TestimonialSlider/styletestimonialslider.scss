@@ -1,0 +1,73 @@
+.carousel2 {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+
+    .cardt {
+        height: 280px;
+        width: 500px;
+        background-color: white;
+        display: flex;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px 0 rgb(144, 144, 144);
+
+        .left {
+            width: 50%;
+            // background-color: yellow;
+            display: flex;
+            align-items: center;
+            height: 250px;
+
+            .image {
+
+                align-items: center;
+                // background-color: violet;
+                margin: 0 0 0 -50px;
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+
+
+
+                img {
+                    border-radius: 15px;
+                    width: 95%;
+                    height: 90%;
+                    object-fit: cover;
+
+                    box-shadow: 4px 3px #086AD8;
+
+
+                }
+            }
+        }
+
+        .right {
+            // width: 50%;
+            // background-color: royalblue;
+            padding: 20px;
+
+            .bubble {
+                padding: 20px 0 0 0;
+            }
+
+            .desc {
+                padding: 10px 0 0 0;
+                font-family: var(--font-family3);
+                font-size: 20px;
+                font-weight: 400;
+                color: #27151B;
+
+
+            }
+
+            .post {
+                padding: 10px 0 0 0;
+                color: black;
+                font-family: var(--font-family3);
+
+            }
+        }
+
+    }
+}

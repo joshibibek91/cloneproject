@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./style.scss"
 import Scope from '../../../compnents/Scope/scope'
-import Testimonial from '../../../compnents/Testimonial/Testimonial'
+
 import Experts from '../../../compnents/Expert/Experts'
+import Testimonialabout from './Testimonial-about/Testimonial-about'
 
 function Aboutus() {
   return (
@@ -62,9 +63,9 @@ function Aboutus() {
 
           </div>
         </div>
-      <Scope/>
-      <Experts/>
-      <Testimonial/>
+        <Scope />
+        <Experts />
+        <Testimonialabout />
 
       </div>
 

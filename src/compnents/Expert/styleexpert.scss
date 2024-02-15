@@ -1,14 +1,14 @@
 .expert {
     .containers {
-        padding: 50px 0;
+        padding: 100px 0;
         margin: 0;
-        height: 800px;
+        height: 750px;
         width: 100%;
-        // background-image: url("src/compnents/Expert/gradient-dark-blue-futuristic-digital-grid-background.jpg");
+        background-image: url("src/compnents/Expert/gradient-dark-blue-futuristic-digital-grid-background.jpg");
         background-size: cover;
         background-position: center;
 
-        background-color: wheat;
+        // background-color: wheat;
 
         .top {
             font-family: var(--font-family3);
@@ -21,7 +21,7 @@
 
         .middle {
             font-family: var(--font-family2);
-            font-size: 50px;
+            font-size: 48px;
             font-weight: 600;
             text-align: center;
             // background-color: teal;
@@ -37,11 +37,13 @@
 
             display: flex;
             justify-content: center;
+            // background-color: lawngreen;
 
             .carousel {
-                width: 1200px;
-                height: 600px;
-                background-color: brown;
+                width: 1250px;
+                height: auto;
+                // background-color: brown;
+                margin: auto;
 
             }
         }
