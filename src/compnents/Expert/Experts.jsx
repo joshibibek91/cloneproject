@@ -1,8 +1,9 @@
 import React from 'react'
 import "./styleexpert.scss"
+// import './slick-themey.scss'
 
 import MultipleItems from '../Teamslider/Teamslider'
-// import Responsive from '../Teamslider/Teamslider'
+
 
 
 function Experts() {
@@ -15,8 +16,8 @@ function Experts() {
                     <div className="bottom">
                         <div className="carousel">
 
-                            <MultipleItems/>
-                            {/* <Responsive /> */}
+                            <MultipleItems />
+
 
                         </div></div>
 

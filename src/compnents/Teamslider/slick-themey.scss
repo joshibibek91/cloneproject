@@ -1,34 +1,36 @@
-@charset "UTF-8";
+.slide {
+    margin: 0;
+    @charset "UTF-8";
 
-// Default Variables
+    // Default Variables
 
-// Slick icon entity codes outputs the following
-// "\2190" outputs ascii character "←"
-// "\2192" outputs ascii character "→"
-// "\2022" outputs ascii character "•"
+    // Slick icon entity codes outputs the following
+    // "\2190" outputs ascii character "←"
+    // "\2192" outputs ascii character "→"
+    // "\2022" outputs ascii character "•"
 
-$slick-font-path: "./fonts/" !default;
-$slick-font-family: "slick" !default;
-$slick-loader-path: "./" !default;
-// $slick-arrow-color: white !default;
-$slick-dot-color: rgb(244, 244, 244) !default;
-$slick-dot-color-active: $slick-dot-color !default;
-$slick-prev-character: "\2190" !default;
-$slick-next-character: "\2192" !default;
-$slick-dot-character: "\2022" !default;
-$slick-dot-size: 30px !default;
-$slick-opacity-default: 0.75 !default;
-$slick-opacity-on-hover: 1 !default;
-$slick-opacity-not-active: 0.25 !default;
+    $slick-font-path: "./fonts/" !default;
+    $slick-font-family: "slick" !default;
+    $slick-loader-path: "./" !default;
+    // $slick-arrow-color: white !default;
+    $slick-dot-color1: rgb(255, 249, 249) !default;
+    $slick-dot-color-active: $slick-dot-color1 !default;
+    $slick-prev-character: "\2190" !default;
+    $slick-next-character: "\2192" !default;
+    $slick-dot-character: "\2022" !default;
+    $slick-dot-size: 30px !default;
+    $slick-opacity-default: 0.75 !default;
+    $slick-opacity-on-hover: 1 !default;
+    $slick-opacity-not-active: 0.25 !default;
 
-@function slick-image-url($url){
-@if function-exists(image-url) {
-    @return image-url($url);
-}
+    @function slick-image-url($url){
+    @if function-exists(image-url) {
+        @return image-url($url);
+    }
 
-@else {
-    @return url($slick-loader-path + $url);
-}
+    @else {
+        @return url($slick-loader-path + $url);
+    }
 }
 
 @function slick-font-url($url){
@@ -145,7 +147,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
-    
+
 }
 
 .slick-dots {
@@ -167,6 +169,7 @@ $slick-opacity-not-active: 0.25 !default;
         padding: 0;
         cursor: pointer;
 
+
         button {
             border: 0;
             background: transparent;
@@ -176,9 +179,10 @@ $slick-opacity-not-active: 0.25 !default;
             outline: none;
             line-height: 0px;
             font-size: 0px;
-            color: transparent;
+            color: white;
             padding: 5px;
             cursor: pointer;
+
 
             &:hover,
             &:focus {
@@ -200,16 +204,19 @@ $slick-opacity-not-active: 0.25 !default;
                 font-size: $slick-dot-size;
                 line-height: 20px;
                 text-align: center;
-                color: $slick-dot-color;
+                color: $slick-dot-color1;
                 opacity: $slick-opacity-not-active;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
+
             }
         }
 
         &.slick-active button:before {
             color: $slick-dot-color-active;
             opacity: $slick-opacity-default;
+
         }
     }
+}
 }

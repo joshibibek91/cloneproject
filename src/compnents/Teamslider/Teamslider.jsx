@@ -5,8 +5,8 @@ import Slider from 'react-slick';
 
 import "./styleteamslider.scss"
 
-import './slick.scss';
-import './slick-theme.scss';
+import './slicky.scss';
+import './slick-themey.scss';
 
 import { GrFacebookOption } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa";
@@ -30,10 +30,10 @@ function MultipleItems() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-   
+
   };
   return (
-    <>
+    <div className="slide">
       <Slider {...settings}>
         {cardsData.map((data) => (
 
@@ -56,10 +56,10 @@ function MultipleItems() {
           </div>
         ))}
 
-        
+
 
       </Slider >
-    </>
+    </div>
 
 
 

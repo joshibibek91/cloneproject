@@ -7,7 +7,8 @@ import "./styletestimonial-about.scss"
 // import "./slick-theme.scss"
 
 import { HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
-import MultipleItems from './TestimonialSlider/Testimonialslider';
+// import MultipleItems from './TestimonialSlider/Testimonialslider';
+import MultipleItem from './TestimonialSlider/Testimonialslider';
 // import MultipleItems from '../../../../compnents/Teamslider/Teamslider';
 
 
@@ -35,7 +36,7 @@ function Testimonialabout() {
                 <div className="bottom">
                     <div className="slider">
                         <div className="carousel1">
-                            <MultipleItems />
+                            <MultipleItem />
                             {/* <Slider {...settings}>
                             {items.map((data) => (
 

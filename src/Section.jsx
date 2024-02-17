@@ -11,6 +11,7 @@ import { Routes, Route } from 'react-router-dom'
 import Ourteam from './pages/Header/Team/Ourteam';
 import Aboutus from './pages/Header/Aboutus/Aboutus';
 import Services from './pages/Header/Services/Services';
+import Contact from './pages/Header/Contact/Contact';
 
 
 function Section() {
@@ -25,6 +26,7 @@ function Section() {
                 <Route path="/team" element={<Ourteam />} />
                 <Route path="/aboutus" element={<Aboutus />} />
                 <Route path="/services" element={<Services />} />
+                <Route path="/contact" element={<Contact />} />
 
             </Routes>
 

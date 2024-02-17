@@ -1,0 +1,112 @@
+.contact-form {
+    .form-row1 {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            border-radius: 10px;
+            height: 50px;
+            width: 420px;
+            border: solid 1px rgb(194, 194, 194);
+            color: #415674;
+            font-family: var(--font-family2);
+            font-size: 15px;
+            font-weight: 400;
+            padding-left: 15px;
+        }
+    }
+
+    .form-row2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+
+        input {
+            border-radius: 10px;
+            height: 50px;
+            width: 100%;
+            border: solid 1px rgb(194, 194, 194);
+            color: #415674;
+            font-family: var(--font-family2);
+            font-size: 15px;
+            font-weight: 400;
+            padding-left: 15px;
+        }
+    }
+
+    .form-row3 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 30px 0;
+
+        textarea {
+            border-radius: 10px;
+            height: 120px;
+            width: 100%;
+            border: solid 1px rgb(194, 194, 194);
+            color: #415674;
+            font-family: var(--font-family2);
+            font-size: 15px;
+            font-weight: 400;
+            padding-left: 15px;
+        }
+    }
+
+    .form-row4 {
+        display: flex;
+        justify-content: center;
+
+        // background-color: royalblue;
+
+        button {
+            width: 600px;
+            height: 50px;
+            position: relative;
+            background: linear-gradient(to right, #4e8bff, #63b8ff);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: color 0.3s, background 0.3s;
+            overflow: hidden;
+        }
+
+        button::before,
+        button::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: -0%;
+            height: 50%;
+            background: linear-gradient(to right, transparent 50%, black 0%);
+            transition: width 0.3s ease;
+        }
+
+        // button::before {
+        //     left: 0;
+        // }
+
+        button::after {
+            bottom: 0;
+            top: auto;
+            /* Make sure the ::after pseudo-element is at the bottom */
+            right: 0%;
+            background: linear-gradient(to left, transparent 0%, black 0%);
+        }
+
+        button:hover::before,
+        button:hover::after {
+            width: 200%;
+        }
+
+        // button:hover::before {
+        //     width: 0%;
+        // }
+
+        // button:hover::after {
+        //     width: 200%;
+        // }
+    }
+}

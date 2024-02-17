@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 
 import "./styletestimonialslider.scss"
 import "./slick.scss"
-import "./slick-theme.scss"
+import "./slick-themes.scss"
 
 import { HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
 
@@ -14,7 +14,7 @@ const items = [
     // { id: 3, firstname: "Madhur", lastname: "Muskaan", title: 'CEO, Prime Inc.', imageUrl: 'src/pages/Header/Aboutus/Testimonial-about/TestimonialSlider/christopher-campbell-rDEOVtE7vOs-unsplash.jpg', text: 'Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee' },
 ];
 
-function MultipleItems() {
+function MultipleItem() {
     const settings = {
         dots: true,
         infinite: true,
@@ -58,4 +58,4 @@ function MultipleItems() {
     )
 }
 
-export default MultipleItems
+export default MultipleItem
