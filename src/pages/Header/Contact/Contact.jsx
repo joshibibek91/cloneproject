@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import Contactusform from '../../../compnents/Contact-us-form/contactusform'
+import Googlemap from '../../../compnents/Map/Googlemap'
 
 function Contact() {
     return (
@@ -48,7 +49,10 @@ function Contact() {
 
                         </div>
                     </div>
-                    <div className="down"></div>
+
+                </div>
+                <div className="map">
+                    <Googlemap />
                 </div>
             </div>
         </>
