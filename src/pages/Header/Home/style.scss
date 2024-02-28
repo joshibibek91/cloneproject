@@ -1,2 +1,10 @@
+.front {
+    // background-color: rebeccapurple;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; // Ensure the slider is behind other content
 
-
+    // height: 700px;
+}

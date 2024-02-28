@@ -1,13 +1,81 @@
-.header {
-    // background-color: khaki;
-    margin: 0 100px;
+.headera {
 
-    .container {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000; // Ensure the header is above other elements on the page
+
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional: Add a box shadow for depth
+    height: 0;
+    transition: height 0.5s ease-in-out;
+
+
+
+
+
+
+    &.scrolled {
+        position: fixed;
+        // background-color: #ffffff;
+        color: #333;
+        height: 150px;
+        overflow: hidden;
+        /* Initial height */
+
+
+        .middle a {
+            color: #333;
+
+            &:hover {
+                color: #ffaa00;
+            }
+        }
+
+        .containera {
+
+            // font-size: 14px;
+            background-color: #ffffff;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); // Optional: Add a box shadow for depth
+            // width: 100%;
+            // height: 100px;
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center; // Vertically center the content
+            // padding: 0 90px; // Add padding for spacing
+        }
+    }
+
+}
+
+.hr-line {
+    border-bottom: 0.2px solid rgb(225, 225, 225);
+    border-top: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.headera {
+    .containera {
+
+        font-size: 14px;
+        // background-color: plum;
+
         width: 100%;
-        height: 80px;
+        height: 100px;
         display: flex;
         justify-content: space-between;
-        font-size: 14px;
+        align-items: center; // Vertically center the content
+        padding: 0 90px; // Add padding for spacing
+
+
 
 
         .left {
@@ -30,20 +98,58 @@
 
             a {
                 text-decoration: none;
+                color: #333;
+            }
+
+            &:hover {
+                color: #ffaa00;
             }
 
         }
 
         .right {
-            width: 250px;
-            // background-color: peru;
+            width: 200px;
+
             margin: auto 0;
             display: flex;
             justify-content: space-between;
 
             a {
                 text-decoration: none;
+                color: white;
+
             }
+
+            .contact-button {
+                line-height: 50%;
+                height: 30px;
+                width: 120px;
+                background-color: #4e8bff;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                transition: box-shadow 0.3s ease, transform 0.3s ease;
+                box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            .contact-button:hover {
+
+                box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.2);
+                /* Adjust the shadow position */
+                transform: translate(2px, 2px);
+                /* Move the button towards the shadow */
+            }
+
+            .search {
+                width: 100px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
         }
     }
 }

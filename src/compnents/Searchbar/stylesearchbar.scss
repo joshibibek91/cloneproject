@@ -1,0 +1,74 @@
+.outsidebox {
+    height: 70px;
+    width: 260px;
+    background-color: rgb(251, 251, 251);
+    position: absolute;
+    top: 20px;
+    left: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    .search-bar {
+        width: 220px;
+        opacity: 100%;
+        /* Initially hide the search bar */
+        transition: opacity 0.3s ease-in-out;
+        /* Apply transition effect */
+        pointer-events: auto;
+        /* Initially disable pointer events */
+    }
+
+    .search-bar.active {
+        opacity: 100%;
+        /* Make the search bar visible */
+        pointer-events: auto;
+        /* Enable pointer events */
+    }
+
+    .search-form {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .input-container {
+        position: relative;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        padding-right: 40px;
+        /* Adjust padding to make space for the icon */
+        border-radius: 30px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+
+        font-family: var(--font-family3);
+        font-weight: 400;
+        font-size: 13px;
+        
+
+        &:focus {
+            outline: none;
+            /* Remove default focus outline */
+            border-color: #ccc;
+            /* Set border color to initial (default) */
+        }
+
+    }
+
+
+    .search-icon {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        /* Adjust right position as needed */
+        transform: translateY(-50%);
+        color: #757575;
+    }
+}

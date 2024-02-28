@@ -13,12 +13,12 @@ function Contact() {
                 <div className="frame">
                     <div className="container1">
                         <div className="main">Contact</div>
-                        <div className="click"><Link className="home" to="/home" >Home</Link>
+                        <div className="click"><Link className="home" to="/" >Home</Link>
                             <p>/Contact</p>
                         </div>
                     </div>
                 </div>
-                <div className="container2">
+                <div className="container21">
                     <div className="up">
                         <div className="cardc">
                             <div className="box1">

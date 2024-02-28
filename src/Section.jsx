@@ -1,13 +1,8 @@
 import React from 'react';
-import Home from './pages/Header/Home/Home';
-
-
-
-
 
 import { Routes, Route } from 'react-router-dom'
 
-
+import Home from './pages/Header/Home/Home';
 import Ourteam from './pages/Header/Team/Ourteam';
 import Aboutus from './pages/Header/Aboutus/Aboutus';
 import Services from './pages/Header/Services/Services';
@@ -22,7 +17,7 @@ function Section() {
 
             <Routes>
 
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/team" element={<Ourteam />} />
                 <Route path="/aboutus" element={<Aboutus />} />
                 <Route path="/services" element={<Services />} />

@@ -1,13 +1,24 @@
 .footer {
+    // background-color: #011031;
+    // height: 500px;
+
+    // position: sticky;
+    // bottom: 0;
+    // width: 100%;
+
+    // z-index: 9999; // Ensure the footer stays above other content
+    // position: fixed;
+    // left: 0;
+    // bottom: 0;
+    width: 100%;
     background-color: #011031;
     height: 500px;
+    z-index: 9999; // Ensure the footer stays above other content
 
     .containerf {
         // background-color: forestgreen;
         display: flex;
         justify-content: space-between;
-
-
         padding: 80px 100px;
         color: #C4C5C7;
 

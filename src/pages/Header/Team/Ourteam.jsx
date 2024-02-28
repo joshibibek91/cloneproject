@@ -25,7 +25,7 @@ function Ourteam() {
                 <div className="ourteam1">
                     <div className="container1">
                         <div className="main">Our Team</div>
-                        <div className="click"><Link className="home" to="/home" >Home</Link>
+                        <div className="click"><Link className="home" to="/" >Home</Link>
                             <p>/Our Team</p>
                         </div>
 
