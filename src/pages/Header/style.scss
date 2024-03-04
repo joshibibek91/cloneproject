@@ -1,6 +1,5 @@
 .headera {
 
-
     position: absolute;
     top: 0;
     left: 0;
@@ -12,21 +11,15 @@
     height: 0;
     transition: height 0.5s ease-in-out;
 
-
-
-
-
-
     &.scrolled {
         position: fixed;
         // background-color: #ffffff;
-        color: #333;
+        // color: #333;
         height: 150px;
         overflow: hidden;
         /* Initial height */
 
-
-        .middle a {
+        .middleh a {
             color: #333;
 
             &:hover {
@@ -36,16 +29,10 @@
 
         .containera {
 
-            // font-size: 14px;
             background-color: #ffffff;
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); // Optional: Add a box shadow for depth
-            // width: 100%;
-            // height: 100px;
-            // display: flex;
-            // justify-content: space-between;
-            // align-items: center; // Vertically center the content
-            // padding: 0 90px; // Add padding for spacing
         }
+
     }
 
 }
@@ -57,11 +44,6 @@
     padding: 0;
 }
 
-
-
-
-
-
 .headera {
     .containera {
 
@@ -69,7 +51,7 @@
         // background-color: plum;
 
         width: 100%;
-        height: 100px;
+        height: 80px;
         display: flex;
         justify-content: space-between;
         align-items: center; // Vertically center the content
@@ -89,7 +71,7 @@
 
         }
 
-        .middle {
+        .middleh {
             width: 550px;
             // background-color: lightcoral;
             margin: auto 0;
@@ -98,11 +80,11 @@
 
             a {
                 text-decoration: none;
-                color: #333;
-            }
+                color: #ffffff;
 
-            &:hover {
-                color: #ffaa00;
+                &:hover {
+                    color: #ffaa00;
+                }
             }
 
         }

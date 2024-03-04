@@ -29,7 +29,7 @@ function Header() {
             <div className={`headera ${isScrolled ? 'scrolled' : ''}`}>
                 <div className="containera">
                     <div className="left"><img src="src/pages/Header/b1a44848-1a18-4ddc-9d1b-c0eedfefd2fb.png" alt="" onClick={() => navigate('/')} style={{ cursor: 'pointer' }} /></div>
-                    <div className="middle">
+                    <div className="middleh">
                         <NavLink className="home" to="/" >Home</NavLink>
                         <Link className="services" to="/services" >Services</Link>
                         <Link className="aboutus" to="/aboutus" >About Us</Link>

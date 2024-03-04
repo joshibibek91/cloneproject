@@ -1,0 +1,224 @@
+.our-services {
+    background-color: rgb(255, 255, 255)smoke;
+    min-height: 1000px;
+    width: 100%;
+    padding-top: 40px;
+
+    .upperpart {
+        .ups {
+            text-align: center;
+            font-family: var(--font-family2);
+            font-weight: 600;
+            font-size: 30px;
+            color: #333;
+        }
+
+        .downs {
+            text-align: center;
+            font-family: var(--font-family3);
+            font-weight: 400;
+            font-size: 20;
+            color: slateblue;
+        }
+    }
+
+    .tops {
+        margin: 0px auto;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        // background-color: salmon;
+        // margin: auto;
+
+        .leftt {
+            width: 50%;
+            height: 400px;
+            // background-color: teal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 350px;
+            }
+
+        }
+
+        .rightt {
+            width: 50%;
+            height: 400px;
+            // background-color: yellow;
+            padding: 60px 0 0 0;
+
+            .api-integration {
+                color: #333;
+                font-family: var(--font-family2);
+                font-size: 25px;
+                font-weight: 500;
+                padding: 20px 0;
+            }
+
+            .descapi {
+                color: #333;
+                font-family: var(--font-family3);
+                font-size: 17px;
+                font-weight: 400;
+                padding: 0 100px 0 0;
+
+            }
+
+            .buttonl {
+                padding: 30px 0;
+                font-size: 15px;
+
+                button {
+                    border-radius: 15px;
+                    border: none;
+                    background-color: violet;
+                    color: white;
+                    height: 30px;
+                    width: 120px;
+
+                    &:Hover {
+                        background-color: salmon;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .middles {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        // background-color: rgb(114, 168, 250);
+        margin: auto;
+
+        .leftm {
+            width: 50%;
+            height: 400px;
+            // background-color: yellow;
+
+            padding: 60px 0 0 100px;
+
+            .travel-dome {
+                color: #333;
+                font-family: var(--font-family2);
+                font-size: 25px;
+                font-weight: 500;
+                padding: 20px 0;
+            }
+
+            .desctravel {
+                color: #333;
+                font-family: var(--font-family3);
+                font-size: 17px;
+                font-weight: 400;
+
+
+            }
+
+            .buttonl {
+                padding: 30px 0;
+                font-size: 15px;
+
+                button {
+                    border-radius: 15px;
+                    border: none;
+                    background-color: violet;
+                    color: white;
+                    height: 30px;
+                    width: 120px;
+
+                    &:Hover {
+                        background-color: salmon;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .rightm {
+        width: 50%;
+        height: 400px;
+        // background-color: teal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 350px;
+        }
+    }
+
+}
+
+.bottoms {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: rgb(114, 168, 250);
+    margin: auto;
+
+    .leftb {
+        width: 50%;
+        height: 400px;
+        // background-color: teal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 350px;
+        }
+
+    }
+
+    .rightb {
+        width: 50%;
+        height: 400px;
+        // background-color: yellow;
+        padding: 60px 0 0 0;
+
+        .web-design {
+            color: #333;
+            font-family: var(--font-family2);
+            font-size: 25px;
+            font-weight: 500;
+            padding: 20px 0;
+        }
+
+        .descweb {
+            color: #333;
+            font-family: var(--font-family3);
+            font-size: 17px;
+            font-weight: 400;
+            padding: 0 100px 0 0;
+
+        }
+
+        .buttonl {
+            padding: 30px 0;
+            font-size: 15px;
+
+            button {
+                border-radius: 15px;
+                border: none;
+                background-color: violet;
+                color: white;
+                height: 30px;
+                width: 120px;
+
+                &:Hover {
+                    background-color: salmon;
+                }
+
+            }
+        }
+    }
+
+
+}

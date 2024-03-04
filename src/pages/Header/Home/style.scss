@@ -1,10 +1,26 @@
-.front {
+.fronth {
     // background-color: rebeccapurple;
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: -1; // Ensure the slider is behind other content
+    width: auto;
+    // z-index: -1; // Ensure the slider is behind other content
 
-    // height: 700px;
+    // height: 500px;
+
+    .my-carousel {
+        .carousel-item {
+            height: 750px;
+            overflow: hidden;
+
+            img {
+                // height: 100%;
+                width: 100%;
+                height: auto;
+            }
+
+        }
+
+    }
+
 }

@@ -1,17 +1,7 @@
 .footer {
-    // background-color: #011031;
-    // height: 500px;
-
-    // position: sticky;
-    // bottom: 0;
-    // width: 100%;
-
-    // z-index: 9999; // Ensure the footer stays above other content
-    // position: fixed;
-    // left: 0;
-    // bottom: 0;
+   
     width: 100%;
-    background-color: #011031;
+    background-color: #3C493F;
     height: 500px;
     z-index: 9999; // Ensure the footer stays above other content
 
@@ -60,10 +50,22 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    transition: background-color 0.3s ease;
 
 
                     i {
                         color: #086AD8;
+                        transition: color 0.3s ease;
+
+                    }
+
+                    &:hover {
+                        background-color: #086AD8;
+
+                        i {
+                            color: #ffffff;
+
+                        }
                     }
                 }
 
@@ -75,10 +77,21 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    transition: background-color 0.3s ease;
 
 
                     i {
                         color: #086AD8;
+                        transition: color 0.3s ease;
+                    }
+
+                    &:hover {
+                        background-color: #086AD8;
+
+                        i {
+                            color: #ffffff;
+
+                        }
                     }
 
                 }
@@ -92,9 +105,25 @@
                     align-items: center;
                     justify-content: center;
 
+                    transition: background-color 0.3s ease;
+
 
                     i {
                         color: #086AD8;
+                        transition: color 0.3s ease;
+
+
+
+                    }
+
+                    &:hover {
+                        background-color: #086AD8;
+
+
+                        i {
+                            color: #ffffff;
+
+                        }
                     }
 
                 }

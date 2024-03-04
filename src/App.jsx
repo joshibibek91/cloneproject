@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Section from './Section';
-import Header from './pages/Header/Header';
+// import Header from './pages/Header/Header';
 import Footer from './pages/Footer/Footer';
 import Otherheader from './pages/Header2/Otherheader';
 
@@ -14,6 +14,7 @@ import Ourteam from './pages/Header/Team/Ourteam';
 import Aboutus from './pages/Header/Aboutus/Aboutus';
 import Services from './pages/Header/Services/Services';
 import Contact from './pages/Header/Contact/Contact';
+import Header1 from './pages/Header1/Header1';
 
 
 
@@ -23,7 +24,7 @@ function App() {
 
             {/* Render different headers based on route */}
             <Routes>
-                <Route path="/" element={<Header />} />
+                <Route path="/" element={<Header1 />} />
 
 
                 <Route path="/" element={<Otherheader />} />

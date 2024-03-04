@@ -14,7 +14,7 @@ function Footer() {
             <div className="footer">
                 <div className="containerf">
                     <div className="sns">
-                        <div className="logo"><img src="src/pages/Header/WhatsApp Image 2024-02-04 at 11.06.49 AM.jpeg" alt="" /></div>
+                        <div className="logo"><img src="src/pages/Header/b1a44848-1a18-4ddc-9d1b-c0eedfefd2fb.png" alt="" /></div>
                         <div className="ph">Accelerate innovation with world-className tech teams We'll match you to an entire remote team of incredible freelance talent.</div>
                         <div className="medias">
                             <div className="facebook">
